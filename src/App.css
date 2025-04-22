@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background-color: #CEE5E7;
+}
+.input{
+  width: 710px;
+  height: 57px;
+  border: none;
+  color: #C4C4C4;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-left: 79px;
+  font-weight: 600;
+  line-height: 20px;
+  border-radius: 7px;
+  box-shadow: 0 4px 7px white;
+
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.fatherdiv{
+  background-color: white;
+  width: 960px;
+  margin-right: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 7px white;
+  color: #C4C4C4;
+  margin-top: 34px;
+}
+.btn{
+  background-color: #68C5CC;
+  width: 150px;
+  margin-left: 20px;
+  height: 57px;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  box-shadow: 0 4px 8px white;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
