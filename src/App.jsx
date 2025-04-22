@@ -47,8 +47,8 @@ export default function App() {
           <div className='fatherdiv'>
             <div className='li' key={id}>
             {title}{" "}
-            <button onClick={() => editTodo(id)}>✏️</button>
-            <button onClick={() => removeTodo(id)}>🗑️</button>
+            <button className='btn2' onClick={() => editTodo(id)}>✏️</button>
+            <button className='btn2' onClick={() => removeTodo(id)}>🗑️</button>
           </div>
           </div>
         ))}

@@ -22,7 +22,10 @@ body{
   padding: 2rem;
   text-align: center;
 }
-
+.btn2{
+  padding-left: 400px;
+  width: 30px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
